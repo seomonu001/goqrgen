@@ -155,7 +155,6 @@ const CookiePolicy: React.FC = () => {
                 </p>
                 <div className="space-y-2">
                   <p className="text-gray-600">Email: privacy@qrcodegen.com</p>
-                  <p className="text-gray-600">Phone: +1 (234) 567-890</p>
                   <p className="text-gray-600">Address: 123 Privacy Street, Security City, 12345</p>
                 </div>
               </div>

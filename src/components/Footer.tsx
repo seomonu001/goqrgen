@@ -1,5 +1,5 @@
 import React from 'react';
-import { QrCode, Facebook, Twitter, Linkedin, Mail, MapPin, Phone, Globe2, Heart } from 'lucide-react';
+import { QrCode, Facebook, Twitter, Linkedin, Mail, MapPin, Globe2, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
@@ -102,10 +102,6 @@ const Footer: React.FC = () => {
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary-400" />
                 <a href="mailto:contact@qrgen.com">contact@qrgen.com</a>
-              </li>
-              <li className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-primary-400" />
-                <a href="tel:+1234567890">+1 (234) 567-890</a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-primary-400" />

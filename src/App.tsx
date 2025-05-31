@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -26,39 +27,41 @@ import TermsOfService from './pages/legal/TermsOfService';
 
 function App() {
   return (
-    <Router>
-      <div className="flex flex-col min-h-screen">
-        <Header />
-        
-        <Routes>
-          <Route path="/" element={
-            <main className="flex-grow">
-              <Hero />
-              <Features />
-              <HowToUse />
-              <QRCodeGenerator />
-              <WhyChooseUs />
-              <BatchGenerator />
-              <QRHistory />
-              <UserReviews />
-              <QRScanner />
-              <FAQs />
-            </main>
-          } />
+    <HelmetProvider>
+      <Router>
+        <div className="flex flex-col min-h-screen">
+          <Header />
           
-          <Route path="/about" element={<AboutUs />} />
+          <Routes>
+            <Route path="/" element={
+              <main className="flex-grow">
+                <Hero />
+                <Features />
+                <HowToUse />
+                <QRCodeGenerator />
+                <WhyChooseUs />
+                <BatchGenerator />
+                <QRHistory />
+                <UserReviews />
+                <QRScanner />
+                <FAQs />
+              </main>
+            } />
+            
+            <Route path="/about" element={<AboutUs />} />
+            
+            {/* Legal Routes */}
+            <Route path="/legal/cookie-policy" element={<CookiePolicy />} />
+            <Route path="/legal/gdpr" element={<GDPR />} />
+            <Route path="/legal/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/legal/terms-of-service" element={<TermsOfService />} />
+          </Routes>
           
-          {/* Legal Routes */}
-          <Route path="/legal/cookie-policy" element={<CookiePolicy />} />
-          <Route path="/legal/gdpr" element={<GDPR />} />
-          <Route path="/legal/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/legal/terms-of-service" element={<TermsOfService />} />
-        </Routes>
-        
-        <Footer />
-        <BackToTop />
-      </div>
-    </Router>
+          <Footer />
+          <BackToTop />
+        </div>
+      </Router>
+    </HelmetProvider>
   );
 }
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, HelpCircle, Book, MessageCircle, Mail, Phone } from 'lucide-react';
+import { Search, HelpCircle, Book, MessageCircle, Mail, Clock } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
 const HelpCenter: React.FC = () => {
@@ -171,14 +171,12 @@ const HelpCenter: React.FC = () => {
               </div>
               
               <div className="card p-6 text-center">
-                <Phone className="w-8 h-8 text-primary-600 mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Phone Support</h3>
+                <Clock className="w-8 h-8 text-primary-600 mx-auto mb-4" />
+                <h3 className="text-xl font-semibold mb-2">Support Hours</h3>
                 <p className="text-gray-600 mb-4">
                   Available Mon-Fri, 9am-5pm EST
                 </p>
-                <a href="tel:+1234567890" className="text-primary-600 hover:text-primary-700">
-                  +1 (234) 567-890
-                </a>
+                <span className="text-primary-600">24/7 Email Support</span>
               </div>
             </div>
           </div>

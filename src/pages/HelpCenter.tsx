@@ -1,11 +1,18 @@
 import React, { useState } from 'react';
 import { Search, HelpCircle, Book, MessageCircle, Mail, Phone } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 const HelpCenter: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHead
+        title="Help Center | QR Code Generator"
+        description="Get help with using our QR code generator. Find answers to common questions, tutorials, and contact our support team for assistance."
+        keywords="help center, support, FAQ, QR code help, tutorials, contact support"
+        canonical="https://qrcodegen.com/help"
+      />
       <main>
         {/* Hero Section */}
         <section className="py-16 bg-gradient-to-br from-primary-50 to-gray-50">

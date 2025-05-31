@@ -1,9 +1,16 @@
 import React from 'react';
 import { FileText, AlertTriangle, Shield, Scale } from 'lucide-react';
+import SEOHead from '../../components/SEOHead';
 
 const TermsOfService: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
+      <SEOHead
+        title="Terms of Service | QR Code Generator"
+        description="Read our terms of service to understand the rules and guidelines for using our QR code generator. Learn about your rights and responsibilities."
+        keywords="terms of service, legal terms, QR code generator, user agreement"
+        canonical="https://qrcodegen.com/legal/terms-of-service"
+      />
       <main>
         {/* Hero Section */}
         <section className="py-16 bg-gradient-to-br from-primary-50 to-gray-50">

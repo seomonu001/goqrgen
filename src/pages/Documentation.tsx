@@ -1,9 +1,16 @@
 import React from 'react';
 import { Book, Code, Terminal, FileText, Zap, Settings, Shield, HelpCircle } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 const Documentation: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
+      <SEOHead
+        title="Documentation | QR Code Generator"
+        description="Comprehensive documentation for using our QR code generator. Learn about features, API integration, best practices, and troubleshooting."
+        keywords="QR code documentation, API reference, guides, tutorials, QR code generator"
+        canonical="https://qrcodegen.com/documentation"
+      />
       <main>
         {/* Hero Section */}
         <section className="py-16 bg-gradient-to-br from-primary-50 to-gray-50">

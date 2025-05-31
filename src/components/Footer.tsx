@@ -1,5 +1,5 @@
 import React from 'react';
-import { QrCode, Facebook, Twitter, Linkedin, Mail, MapPin, Globe2, Heart } from 'lucide-react';
+import { QrCode, Facebook, Twitter, Linkedin, Mail, MapPin, Globe2, Heart, Send } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
@@ -28,6 +28,41 @@ const Footer: React.FC = () => {
                   Subscribe
                 </button>
               </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Contact Section */}
+      <div className="border-b border-gray-700">
+        <div className="container-custom py-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+            <div className="text-center md:text-left">
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-500 bg-opacity-20 rounded-lg mb-4">
+                <Mail className="w-6 h-6 text-primary-400" />
+              </div>
+              <h4 className="text-lg font-semibold mb-2">Email Us</h4>
+              <a href="mailto:contact@qrcodegen.com" className="text-gray-300 hover:text-white transition-colors">
+                contact@qrcodegen.com
+              </a>
+            </div>
+            <div className="text-center">
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-500 bg-opacity-20 rounded-lg mb-4">
+                <Send className="w-6 h-6 text-primary-400" />
+              </div>
+              <h4 className="text-lg font-semibold mb-2">Support</h4>
+              <a href="mailto:support@qrcodegen.com" className="text-gray-300 hover:text-white transition-colors">
+                support@qrcodegen.com
+              </a>
+            </div>
+            <div className="text-center md:text-right">
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-500 bg-opacity-20 rounded-lg mb-4">
+                <Mail className="w-6 h-6 text-primary-400" />
+              </div>
+              <h4 className="text-lg font-semibold mb-2">Business Inquiries</h4>
+              <a href="mailto:business@qrcodegen.com" className="text-gray-300 hover:text-white transition-colors">
+                business@qrcodegen.com
+              </a>
             </div>
           </div>
         </div>
@@ -101,7 +136,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary-400" />
-                <a href="mailto:contact@qrgen.com">contact@qrgen.com</a>
+                <a href="mailto:contact@qrcodegen.com" className="hover:text-white transition-colors">contact@qrcodegen.com</a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-primary-400" />
@@ -109,7 +144,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Globe2 className="h-4 w-4 text-primary-400" />
-                <a href="https://qrgen.com">qrgen.com</a>
+                <a href="https://qrcodegen.com" className="hover:text-white transition-colors">qrcodegen.com</a>
               </li>
             </ul>
           </div>

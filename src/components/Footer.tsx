@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         <div className="container-custom py-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="md:w-1/2 text-center md:text-left">
-              <h3 className="text-2xl font-bold mb-2">Stay Updated</h3>
+              <h3 className="text-2xl font-bold mb-2 text-white">Stay Updated</h3>
               <p className="text-gray-300">
                 Get the latest updates about new features and QR code best practices.
               </p>

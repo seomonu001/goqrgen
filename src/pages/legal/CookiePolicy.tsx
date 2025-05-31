@@ -1,9 +1,16 @@
 import React from 'react';
 import { Cookie, Shield, Clock, Settings } from 'lucide-react';
+import SEOHead from '../../components/SEOHead';
 
 const CookiePolicy: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
+      <SEOHead
+        title="Cookie Policy | QR Code Generator"
+        description="Learn how we use cookies to improve your experience with our QR code generator. Read our detailed cookie policy and understand your privacy rights."
+        keywords="cookie policy, privacy, cookies, QR code generator, data privacy"
+        canonical="https://qrcodegen.com/legal/cookie-policy"
+      />
       <main>
         {/* Hero Section */}
         <section className="py-16 bg-gradient-to-br from-primary-50 to-gray-50">

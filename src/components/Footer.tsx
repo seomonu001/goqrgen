@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
                 <QrCode className="h-8 w-8 text-white" />
               </div>
               <div>
-                <h2 className="text-xl font-bold">QR Code Generator</h2>
+                <h2 className="text-xl font-bold text-white">QR Code Generator</h2>
                 <p className="text-primary-400">Create • Customize • Share</p>
               </div>
             </div>

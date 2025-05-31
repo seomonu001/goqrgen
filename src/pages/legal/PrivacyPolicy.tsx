@@ -1,9 +1,16 @@
 import React from 'react';
 import { Shield, Lock, Eye, Database, Share2, AlertTriangle } from 'lucide-react';
+import SEOHead from '../../components/SEOHead';
 
 const PrivacyPolicy: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
+      <SEOHead
+        title="Privacy Policy | QR Code Generator"
+        description="Read our privacy policy to understand how we collect, use, and protect your personal information when using our QR code generator."
+        keywords="privacy policy, data protection, personal information, QR code generator"
+        canonical="https://qrcodegen.com/legal/privacy-policy"
+      />
       <main>
         {/* Hero Section */}
         <section className="py-16 bg-gradient-to-br from-primary-50 to-gray-50">

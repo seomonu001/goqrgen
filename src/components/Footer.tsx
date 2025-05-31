@@ -1,5 +1,5 @@
 import React from 'react';
-import { QrCode, Github, Twitter, Linkedin, Mail, MapPin, Phone, Globe2, Heart } from 'lucide-react';
+import { QrCode, Facebook, Twitter, Linkedin, Mail, MapPin, Phone, Globe2, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <a href="#" className="social-link">
-                <Github className="h-5 w-5" />
+                <Facebook className="h-5 w-5" />
               </a>
               <a href="#" className="social-link">
                 <Twitter className="h-5 w-5" />

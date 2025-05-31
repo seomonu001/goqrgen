@@ -1,9 +1,16 @@
 import React from 'react';
 import { Shield, Lock, FileText, Users, Clock, Settings } from 'lucide-react';
+import SEOHead from '../../components/SEOHead';
 
 const GDPR: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
+      <SEOHead
+        title="GDPR Compliance | QR Code Generator"
+        description="Understand how we protect your data and comply with EU data protection law. Read about your rights under GDPR and our commitment to data privacy."
+        keywords="GDPR, data protection, privacy, QR code generator, EU compliance"
+        canonical="https://qrcodegen.com/legal/gdpr"
+      />
       <main>
         {/* Hero Section */}
         <section className="py-16 bg-gradient-to-br from-primary-50 to-gray-50">

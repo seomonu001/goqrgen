@@ -6,9 +6,9 @@ const GDPR: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
-        title="GDPR Compliance | QR Code Generator"
-        description="Understand how we protect your data and comply with EU data protection law. Read about your rights under GDPR and our commitment to data privacy."
-        keywords="GDPR, data protection, privacy, QR code generator, EU compliance"
+        title="GDPR Compliance & Data Protection | Free QR Code Generator"
+        description="Learn how we protect your data and comply with GDPR regulations. Understand your rights and how we handle personal information when using our QR code generator."
+        keywords="GDPR compliance, data protection, privacy rights, QR code privacy, personal data protection, EU privacy law"
         canonical="https://qrcodegen.com/legal/gdpr"
       />
       <main>

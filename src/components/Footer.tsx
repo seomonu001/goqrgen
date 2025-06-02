@@ -1,6 +1,5 @@
 import React from 'react';
-import { QrCode, Github, Twitter, Linkedin, Mail, MapPin, Phone, Globe2, Heart } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { QrCode, Github, Twitter, Linkedin, Mail, MapPin, Globe2, Heart } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -72,26 +71,6 @@ const Footer: React.FC = () => {
               <li><a href="#batch">Batch Creation</a></li>
               <li><a href="#history">History</a></li>
               <li><a href="#scanner">QR Scanner</a></li>
-            </ul>
-          </div>
-
-          {/* Resources */}
-          <div className="md:col-span-2">
-            <h3 className="footer-heading">Resources</h3>
-            <ul className="footer-list">
-              <li><Link to="/about">About Us</Link></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-          </div>
-
-          {/* Legal */}
-          <div className="md:col-span-2">
-            <h3 className="footer-heading">Legal</h3>
-            <ul className="footer-list">
-              <li><Link to="/legal/privacy-policy">Privacy Policy</Link></li>
-              <li><Link to="/legal/terms-of-service">Terms of Service</Link></li>
-              <li><Link to="/legal/cookie-policy">Cookie Policy</Link></li>
-              <li><Link to="/legal/gdpr">GDPR</Link></li>
             </ul>
           </div>
 

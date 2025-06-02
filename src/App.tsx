@@ -16,15 +16,6 @@ import UserReviews from './components/UserReviews';
 import FAQs from './components/FAQs';
 import BackToTop from './components/BackToTop';
 
-// Pages
-import AboutUs from './pages/AboutUs';
-
-// Legal Pages
-import CookiePolicy from './pages/legal/CookiePolicy';
-import GDPR from './pages/legal/GDPR';
-import PrivacyPolicy from './pages/legal/PrivacyPolicy';
-import TermsOfService from './pages/legal/TermsOfService';
-
 function App() {
   return (
     <HelmetProvider>
@@ -47,14 +38,6 @@ function App() {
                 <FAQs />
               </main>
             } />
-            
-            <Route path="/about" element={<AboutUs />} />
-            
-            {/* Legal Routes */}
-            <Route path="/legal/cookie-policy" element={<CookiePolicy />} />
-            <Route path="/legal/gdpr" element={<GDPR />} />
-            <Route path="/legal/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/legal/terms-of-service" element={<TermsOfService />} />
           </Routes>
           
           <Footer />

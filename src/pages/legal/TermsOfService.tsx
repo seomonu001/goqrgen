@@ -6,9 +6,9 @@ const TermsOfService: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
-        title="Terms of Service | QR Code Generator"
-        description="Read our terms of service to understand the rules and guidelines for using our QR code generator. Learn about your rights and responsibilities."
-        keywords="terms of service, legal terms, QR code generator, user agreement"
+        title="Terms of Service | Free QR Code Generator"
+        description="Read our terms of service to understand the rules and guidelines for using our QR code generator. Learn about user rights, responsibilities, and acceptable use of our service."
+        keywords="terms of service, user agreement, QR code terms, legal terms, service conditions, usage terms"
         canonical="https://qrcodegen.com/legal/terms-of-service"
       />
       <main>

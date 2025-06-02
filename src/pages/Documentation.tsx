@@ -6,9 +6,9 @@ const Documentation: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
-        title="Documentation | QR Code Generator"
-        description="Comprehensive documentation for using our QR code generator. Learn about features, API integration, best practices, and troubleshooting."
-        keywords="QR code documentation, API reference, guides, tutorials, QR code generator"
+        title="QR Code Generator Documentation & API Reference | Free QR Code Generator"
+        description="Comprehensive documentation for our QR code generator API, including guides, tutorials, and best practices. Learn how to integrate and customize QR codes in your projects."
+        keywords="QR code API, QR code documentation, QR code integration, QR code tutorials, QR code guides, QR code best practices"
         canonical="https://qrcodegen.com/documentation"
       />
       <main>

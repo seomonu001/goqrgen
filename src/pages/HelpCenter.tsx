@@ -8,9 +8,9 @@ const HelpCenter: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
-        title="Help Center | QR Code Generator"
-        description="Get help with using our QR code generator. Find answers to common questions, tutorials, and contact our support team for assistance."
-        keywords="help center, support, FAQ, QR code help, tutorials, contact support"
+        title="QR Code Generator Help Center & Support | Free QR Code Generator"
+        description="Get help with our QR code generator. Find answers to common questions, troubleshooting guides, and contact our support team for assistance with QR code creation."
+        keywords="QR code help, QR code support, QR code FAQ, QR code troubleshooting, QR code assistance, QR code customer service"
         canonical="https://qrcodegen.com/help"
       />
       <main>

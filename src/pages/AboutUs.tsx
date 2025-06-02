@@ -6,9 +6,9 @@ const AboutUs: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
-        title="About Us | QR Code Generator"
-        description="Learn about our mission to make QR code generation accessible, secure, and efficient for everyone. Discover the team behind QR Code Generator."
-        keywords="QR code generator, about us, company mission, team, QR code technology"
+        title="About Our QR Code Generator Team | Free QR Code Generator"
+        description="Meet the team behind our free QR code generator. Learn about our mission to make QR code technology accessible, secure, and user-friendly for everyone worldwide."
+        keywords="QR code team, about us, QR code company, QR code mission, QR code experts, free QR generator team"
         canonical="https://qrcodegen.com/about"
       />
       <main>

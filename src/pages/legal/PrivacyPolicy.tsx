@@ -6,9 +6,9 @@ const PrivacyPolicy: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
-        title="Privacy Policy | QR Code Generator"
-        description="Read our privacy policy to understand how we collect, use, and protect your personal information when using our QR code generator."
-        keywords="privacy policy, data protection, personal information, QR code generator"
+        title="Privacy Policy | Free QR Code Generator"
+        description="Our privacy policy outlines how we collect, use, and protect your information when using our QR code generator. Learn about our commitment to your privacy and data security."
+        keywords="privacy policy, data privacy, QR code privacy, personal information protection, data security, privacy rights"
         canonical="https://qrcodegen.com/legal/privacy-policy"
       />
       <main>

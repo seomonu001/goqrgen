@@ -6,9 +6,9 @@ const CookiePolicy: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
-        title="Cookie Policy | QR Code Generator"
-        description="Learn how we use cookies to improve your experience with our QR code generator. Read our detailed cookie policy and understand your privacy rights."
-        keywords="cookie policy, privacy, cookies, QR code generator, data privacy"
+        title="Cookie Policy | Free QR Code Generator"
+        description="Our cookie policy explains how we use cookies and similar technologies to improve your QR code generation experience while protecting your privacy."
+        keywords="QR code cookies, cookie policy, privacy, data protection, website cookies, cookie settings"
         canonical="https://qrcodegen.com/legal/cookie-policy"
       />
       <main>

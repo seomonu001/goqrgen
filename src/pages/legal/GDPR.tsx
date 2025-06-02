@@ -191,7 +191,6 @@ const GDPR: React.FC = () => {
                 </p>
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <p className="text-gray-700 mb-2">Email: dpo@qrcodegen.com</p>
-                  <p className="text-gray-700 mb-2">Phone: +1 (234) 567-890</p>
                   <p className="text-gray-700">Address: 123 Privacy Street, Security City, 12345</p>
                 </div>
               </div>

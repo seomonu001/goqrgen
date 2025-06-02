@@ -210,7 +210,6 @@ const TermsOfService: React.FC = () => {
                   </p>
                   <div className="space-y-2">
                     <p className="text-gray-700">Email: legal@qrcodegen.com</p>
-                    <p className="text-gray-700">Phone: +1 (234) 567-890</p>
                     <p className="text-gray-700">Address: 123 Legal Street, Terms City, 12345</p>
                   </div>
                 </div>

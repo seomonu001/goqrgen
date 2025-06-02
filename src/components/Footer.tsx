@@ -104,10 +104,6 @@ const Footer: React.FC = () => {
                 <a href="mailto:goqrgen@gmail.com">goqrgen@gmail.com</a>
               </li>
               <li className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-primary-400" />
-                <a href="tel:+1234567890">+1 (234) 567-890</a>
-              </li>
-              <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-primary-400" />
                 <span>San Francisco, CA</span>
               </li>
